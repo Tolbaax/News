@@ -1,6 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:news365/shared/cubit/bloc_observer.dart';
 import 'package:news365/shared/cubit/cubit.dart';
 import 'package:news365/shared/network/remote/dio_helper.dart';
 import 'layout/home_screen.dart';
@@ -10,7 +11,7 @@ void main() {
     NewsCubit();
     runApp(const MyApp());
   },
-  // blocObserver: MyBlocObserver(),
+  blocObserver: MyBlocObserver(),
   );
   DioHelper.init();
 }
@@ -44,9 +45,6 @@ class MyApp extends StatelessWidget {
           type: BottomNavigationBarType.fixed,
           backgroundColor: Colors.white,
           elevation: 20.0
-        ),
-        floatingActionButtonTheme: const FloatingActionButtonThemeData(
-          backgroundColor: Colors.deepOrange
         ),
         scaffoldBackgroundColor: Colors.white,
       ),
