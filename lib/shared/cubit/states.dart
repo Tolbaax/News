@@ -15,3 +15,5 @@ class NewsGetSportsSuccessState extends NewsStates {}
 class NewsGetScienceLoadingState extends NewsStates {}
 
 class NewsGetScienceSuccessState extends NewsStates {}
+
+class AppChangeModeState extends NewsStates {}

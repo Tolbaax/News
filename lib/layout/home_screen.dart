@@ -9,18 +9,22 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (BuildContext context,)=> NewsCubit()..getBusiness()..getSports()..getScience(),
+      create: (BuildContext context,) =>
+          NewsCubit()..getBusiness()..getSports()..getScience(),
       child: BlocConsumer<NewsCubit, NewsStates>(
         listener: (context, state) {},
         builder: (context, state) {
           NewsCubit cubit = NewsCubit.get(context);
           return Scaffold(
             appBar: AppBar(
-              title: const Text(
-                  'News App'
-              ),
+              title: const Text('News App'),
               actions: [
                 IconButton(onPressed: () {}, icon: const Icon(Icons.search)),
+                IconButton(
+                    onPressed: () {
+                      NewsCubit.get(context).changeAppMode();
+                    },
+                    icon: const Icon(Icons.brightness_4_outlined)),
               ],
             ),
             bottomNavigationBar: BottomNavigationBar(

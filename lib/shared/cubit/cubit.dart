@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news365/modules/business_screen.dart';
 import 'package:news365/modules/science_screen.dart';
-import 'package:news365/modules/settings_screen.dart';
 import 'package:news365/modules/sports_screen.dart';
 import 'package:news365/shared/cubit/states.dart';
 import '../network/remote/dio_helper.dart';
@@ -18,7 +17,6 @@ class NewsCubit extends Cubit<NewsStates> {
     BusinessScreen(),
     SportsScreen(),
     ScienceScreen(),
-    SettingsScreen(),
   ];
 
   List<BottomNavigationBarItem> bottomItems = const [
@@ -39,12 +37,6 @@ class NewsCubit extends Cubit<NewsStates> {
         Icons.science,
       ),
       label: 'Science',
-    ),
-    BottomNavigationBarItem(
-      icon: Icon(
-        Icons.settings,
-      ),
-      label: 'Settings',
     ),
   ];
 
@@ -111,4 +103,12 @@ class NewsCubit extends Cubit<NewsStates> {
     currentIndex = index;
     emit(NewsBottomNavState());
   }
+
+  bool isDark = false;
+
+  void changeAppMode() {
+    isDark = !isDark;
+    emit(AppChangeModeState());
+  }
+
 }
