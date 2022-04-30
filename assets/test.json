@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  "articles": [
+  {
+    "source": {
+      "id": "google-news",
+      "name": "Google News"
+    },
+    "author": null,
+    "title": "Dow Jones Futures: Market Correction Intensifies; Warren Buffett's Berkshire, Tesla China EV Rivals On Tap - Investor's Business Daily",
+    "description": null,
+    "url": "https://news.google.com/__i/rss/rd/articles/CBMimQFodHRwczovL3d3dy5pbnZlc3RvcnMuY29tL21hcmtldC10cmVuZC9zdG9jay1tYXJrZXQtdG9kYXkvZG93LWpvbmVzLWZ1dHVyZXMtbWFya2V0LWNvcnJlY3Rpb24taW50ZW5zaWZpZXMtd2FycmVuLWJ1ZmZldHQtYmVya3NoaXJlLXRlc2xhLWNoaW5hLWV2LXJpdmFscy_SAQA?oc=5",
+    "urlToImage": null,
+    "publishedAt": "2022-04-30T01:53:00Z",
+    "content": null
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Suntimes.com"
+    },
+    "author": "Cheyanne M. Daniels, Fran Spielman",
+    "title": "Englewood Whole Foods to close after just 6 years in neighborhood, leaving few healthy options - Chicago Sun-Times",
+    "description": "The store in Englewood Square Shopping Center is among six stores targeted for closure nationwide, including a store in Lincoln Park.",
+    "url": "https://chicago.suntimes.com/2022/4/29/23048801/whole-foods-market-englewood-closing-depaul-lincoln-park",
+    "urlToImage": "https://cst.brightspotcdn.com/dims4/default/7c654f8/2147483647/strip/true/crop/4645x2652+0+223/resize/1461x834!/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2F-lhCJHxHMZkkgYnLsu4NnaK2Aps%3D%2F0x0%3A4645x3097%2F4645x3097%2Ffilters%3Afocal%282323x1549%3A2324x1550%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F23426558%2FWHOLEFOODS_043022_8.jpg",
+    "publishedAt": "2022-04-30T00:37:00Z",
+    "content": "Phillip Backstrol was thrilled when a Whole Foods Market opened in Englewood six years ago. The 65-year-old neighborhood resident prefers to shop there for the variety of organic vegetables.\r\nI thoug… [+10297 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "YouTube"
+    },
+    "author": null,
+    "title": "Cramer's game plan for the trading week of May 2 - CNBC Television",
+    "description": "CNBC's Jim Cramer previewed next week's slate of earnings in Friday's episode of \"Mad Money.\"",
+    "url": "https://www.youtube.com/watch?v=Ock5gWknnVg",
+    "urlToImage": "https://i.ytimg.com/vi/Ock5gWknnVg/hqdefault.jpg",
+    "publishedAt": "2022-04-29T23:41:04Z",
+    "content": null
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Krystal Hur",
+    "title": "Cramer's lightning round: I like CVS over Rite Aid - CNBC",
+    "description": "\"Mad Money\" host Jim Cramer rings the lightning round bell, which means he's giving his answers to callers' stock questions at rapid speed.",
+    "url": "https://www.cnbc.com/2022/04/29/cramers-lightning-round-i-like-cvs-over-rite-aid.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/102086320-mad-money-lightning-2.jpg?v=1532384256&w=1920&h=1080",
+    "publishedAt": "2022-04-29T23:31:32Z",
+    "content": "Johnson Controls International Plc: \"It's just very cheap.\"\r\nStar Bulk Carriers Corp: \"The way this stock is priced, the dividend's going to be cut. I don't know if that's the case. ... This is what … [+272 chars]"
+  },
+  {
+    "source": {
+      "id": "cbs-news",
+      "name": "CBS News"
+    },
+    "author": "Alexander Tin",
+    "title": "FDA could authorize COVID vaccine for children 5 and under, and Novavax vaccine, this June - CBS News",
+    "description": "The Food and Drug Administration released a \"tentative\" schedule of meetings for its outside vaccine advisers in June.",
+    "url": "https://www.cbsnews.com/news/covid-vaccine-children-5-and-under-june-novavax/",
+    "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2021/10/19/e96bb8e9-3deb-44ea-b99a-394f6aec8959/thumbnail/1200x630/2faa9f2b05d91c5b26fad71a6089f5dc/cbsn-fusion-fda-could-allow-americans-to-receive-different-covid-vaccine-booster-than-one-they-got-for-initial-dose-thumbnail-818294-640x360.jpg",
+    "publishedAt": "2022-04-29T23:28:00Z",
+    "content": "The Food and Drug Administration could authorize COVID-19 vaccine shots for children under 6 years old as early as June following key meetings of its outside advisers now tentatively scheduled for th… [+6234 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Fox Business"
+    },
+    "author": "Adam Sabes",
+    "title": "Disney corporate affairs chief Geoff Morrell steps down after three months - Fox Business",
+    "description": "The Walt Disney Company's Cheif Corporate Affairs Officer Geoff Morrell is stepping down from his position, according to an email sent by CEO Bob Chapek that was sent to company executives.",
+    "url": "https://www.foxbusiness.com/business-leaders/disney-geoff-morrell-steps-down",
+    "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2022/04/0/0/Walt-Disney.jpg?ve=1&tl=1",
+    "publishedAt": "2022-04-29T23:19:40Z",
+    "content": "The Walt Disney Company's Chief Corporate Affairs Officer Geoff Morrell is stepping down from his position, according to an email sent to company executives, FOX Business has confirmed.\r\nMorrell had … [+1929 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Krystal Hur",
+    "title": "Suncor Energy is a buy, but be prepared to turn if oil prices peak, Jim Cramer says - CNBC",
+    "description": "\"This could be just an absolutely terrific stock because the oil sands can generate tremendous earnings growth,\" the \"Mad Money\" host said.",
+    "url": "https://www.cnbc.com/2022/04/29/suncor-energy-is-a-buy-but-be-prepared-to-turn-if-oil-prices-peak-jim-cramer-says.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106939070-1631176585035-gettyimages-1032083726-ATHABASCA_OIL_SANDS.jpeg?v=1631176704&w=1920&h=1080",
+    "publishedAt": "2022-04-29T23:03:42Z",
+    "content": "CNBC's Jim Cramer on Friday advised investors to pick up shares of Canadian oil producer Suncor Energy, but only if they're confident oil prices will stay elevated.\r\nCramer's comments come after acti… [+2023 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "The Guardian"
+    },
+    "author": "Maya Yang",
+    "title": "Twitter employees grill CEO Parag Agrawal over fears of post-Musk exodus - The Guardian",
+    "description": "Workers raise questions about job security and advertising concerns as executives brace for billionaire’s takeover",
+    "url": "https://amp.theguardian.com/technology/2022/apr/29/twitter-employees-elon-musk-parag-agrawal",
+    "urlToImage": null,
+    "publishedAt": "2022-04-29T23:03:00Z",
+    "content": "TwitterWorkers raise questions about job security and advertising concerns as executives brace for billionaires takeover\r\nSat 30 Apr 2022 00.03 BST\r\nTwitters chief executive, Parag Agrawal, sought to… [+5500 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Bitcoinist"
+    },
+    "author": null,
+    "title": "‘Bitcoin Jesus’ Roger Ver On Why Dogecoin (DOGE) Is Superior To BTC | Bitcoinist.com - Bitcoinist",
+    "description": "Dogecoin has now become a favorite of crypto investors around the world. The meme coin has now grown to the point where it is being pitted against the largest",
+    "url": "https://bitcoinist.com/roger-ver-on-why-dogecoin-doge-is-superior-to-btc/",
+    "urlToImage": "https://bitcoinist.com/wp-content/uploads/2022/04/dogecoin-2.jpeg",
+    "publishedAt": "2022-04-29T23:00:02Z",
+    "content": "Dogecoin has now become a favorite of crypto investors around the world. The meme coin has now grown to the point where it is being pitted against the largest cryptocurrencies in the space. The lates… [+2436 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Yun Li",
+    "title": "Here’s what it’s like to attend Warren Buffett’s shopping carnival for shareholders - CNBC",
+    "description": "At Berkshire's shareholder shopping day, investors gathered in a sprawling convention center to explore exhibits featuring the conglomerate's holdings.",
+    "url": "https://www.cnbc.com/2022/04/29/heres-what-its-like-to-attend-warren-buffetts-shopping-carnival-for-shareholders.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/107054005-1651270253342-Brooks-display-at-BHASM.jpg?v=1651270338&w=1920&h=1080",
+    "publishedAt": "2022-04-29T22:34:38Z",
+    "content": "Berkshire Hathaway Annual Shareholder Meeting signage in Omaha, Nebraska, April 29, 2022.\r\nBerkshire Hathaway shareholder meeting's pregame is nothing short of an extravaganza.\r\nThousands of Berkshir… [+3165 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Krebs on Security"
+    },
+    "author": null,
+    "title": "You Can Now Ask Google to Remove Your Phone Number, Email or Address from Search Results – Krebs on Security - Krebs on Security",
+    "description": "Google said this week it is expanding the types of data people can ask to have removed from search results, to include personal contact information like your phone number, email address or physical address. The move comes just months after…",
+    "url": "https://krebsonsecurity.com/2022/04/you-can-now-ask-google-to-remove-your-phone-number-email-or-address-from-search-results/",
+    "urlToImage": "https://krebsonsecurity.com/wp-content/uploads/2022/04/googledoxx.png",
+    "publishedAt": "2022-04-29T22:23:32Z",
+    "content": "Google said this week it is expanding the types of data people can ask to have removed from search results, to include personal contact information like your phone number, email address or physical a… [+3640 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Motley Fool"
+    },
+    "author": "Joe Tenebruso",
+    "title": "Why Amazon Stock Crashed Today - The Motley Fool",
+    "description": "The e-commerce giant lost a staggering $200 billion in market value.",
+    "url": "https://www.fool.com/investing/2022/04/29/why-amazon-stock-crashed-today/",
+    "urlToImage": "https://g.foolcdn.com/editorial/images/677109/retail-stocks-gettyimages-1055438678.jpg",
+    "publishedAt": "2022-04-29T21:31:43Z",
+    "content": "What happened\r\nAmazon.com's stock price (AMZN -14.05%) plunged 14% on Friday, as concerns regarding the online retail titan's slowing growth and rising costs drove many investors to sell their shares… [+1755 chars]"
+  },
+  {
+    "source": {
+      "id": "the-verge",
+      "name": "The Verge"
+    },
+    "author": "Sean Hollister",
+    "title": "Intel CEO now says the chip shortage will \"drift\" into 2024 - The Verge",
+    "description": "Six months after predicting the global chip shortage would last until at least 2023, Intel CEO Pat Gelsinger is now suggesting it’s even worse — it might be 2024 before we’re fully out of the woods.",
+    "url": "https://www.theverge.com/2022/4/29/23049114/chip-shortage-intel-ceo-2024",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/ZgUG4EmiNYiIctboPBLPscJyCjE=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22248421/acastro_210120_1777_intel_0002.jpg",
+    "publishedAt": "2022-04-29T21:12:22Z",
+    "content": "But Intels close to meeting demand for its own chips, it says\r\nIllustration by Alex Castro / The Verge\r\nSix months after predicting the global chip shortage would last until at least 2023, Intel CEO … [+2488 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "New York Times"
+    },
+    "author": "Patricia Cohen",
+    "title": "Europe’s Economy Slows to a Crawl as War and Inflation Take a Toll - The New York Times",
+    "description": "Europe’s growth in the first three months of the year was languid as the United States and China struggled to maintain momentum.",
+    "url": "https://www.nytimes.com/2022/04/29/business/europe-economy-gdp.html",
+    "urlToImage": "https://static01.nyt.com/images/2022/04/29/business/29global-gdp-1/29global-gdp-1-facebookJumbo.jpg",
+    "publishedAt": "2022-04-29T20:53:23Z",
+    "content": "Across the eurozone, growth varied. The economy in Spain performed slightly better than other European countries, growing 0.3 percent over the same period. Still, the improvement was much smaller tha… [+1406 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "SFGate"
+    },
+    "author": "Susana Guerrero",
+    "title": "These 20 Bay Area restaurants are among the best in the world, according to Forbes - SF Gate",
+    "description": "Visiting the Bay Area? Here’s where you should eat, according to Forbes.",
+    "url": "https://www.sfgate.com/food/article/Forbes-honors-Bay-Area-restaurants-with-stars-17137107.php",
+    "urlToImage": "https://s.hdnux.com/photos/01/07/47/26/18773432/3/rawImage.jpg",
+    "publishedAt": "2022-04-29T20:53:09Z",
+    "content": "On Tuesday, Forbes Travel Guide released its star award winners for 2022 that highlighted a slew of top Bay Area restaurants considered to be among the most outstanding businesses around the world.In… [+2604 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Jalopnik"
+    },
+    "author": "Erik Shilling",
+    "title": "The Tata Avinya Is An EV Without A Big Screen And Isn't Very Sorry About That - Jalopnik",
+    "description": "The Indian automaker thinks that many future EVs won't have big screens either.",
+    "url": "https://jalopnik.com/the-tata-avinya-is-an-ev-without-a-big-screen-and-isnt-1848860993",
+    "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/fb4cabf1fde7c14dc87aa2999637d893.jpg",
+    "publishedAt": "2022-04-29T20:45:00Z",
+    "content": "Tata Motors, who is a little late to the game, unveiled a new electric concept on Friday, while promising to bring a new EV to the market by 2025. It says that it will be able to get over 300 miles o… [+2136 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Benzinga"
+    },
+    "author": "Adam Eckert",
+    "title": "Cathie Wood Calls Teladoc A 'Category Killer' In Defense Of Recent Buys - Benzinga - Benzinga",
+    "description": "Ark Invest's Cathie Wood has been facing harsh criticism about her investing style, partially because she is an easy target as she elects to disclose portfolio moves on a daily basis, but also because sh",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/22/04/26907705/cathie-wood-calls-teladoc-a-category-killer-in-compelling-defense-of-recent-buys",
+    "urlToImage": "https://cdn.benzinga.com/files/images/story/2022/04/29/licensed-platform.jpg?width=1200&height=800&fit=crop",
+    "publishedAt": "2022-04-29T20:19:23Z",
+    "content": "Ark Invest's Cathie Wood has been facing harsh criticism about her investing style, partially because she is an easy target as she elects to disclose portfolio moves on a daily basis, but also becaus… [+2265 chars]"
+  },
+  {
+    "source": {
+      "id": "abc-news",
+      "name": "ABC News"
+    },
+    "author": "The Associated Press",
+    "title": "Millions of bees used in pollination die in airline shipping - ABC News",
+    "description": "",
+    "url": "https://abcnews.go.com/Business/wireStory/millions-bees-pollination-die-airline-shipping-84400012",
+    "urlToImage": "https://s.abcnews.com/images/Business/WireAP_9581c9aab37a4d06977ace8e4dbe3f9b_16x9_992.jpg",
+    "publishedAt": "2022-04-29T20:12:02Z",
+    "content": "About 5 million honeybees bound for Alaska last weekend got waylaid when Delta Air Lines routed them through Atlanta, where most of the bees died after being left for hours in crates on the ground du… [+2291 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "MarketWatch"
+    },
+    "author": "Mark DeCambre",
+    "title": "A rough 4 months for stocks: S&P 500 books the worst start to a year since 1939. Here's what pros say you should do now. - MarketWatch",
+    "description": "The Nasdaq Composite just notched the worst start to a calendar year in its history, dating back to 1971",
+    "url": "https://www.marketwatch.com/story/a-rough-4-months-for-stocks-s-p-500-at-risk-of-booking-the-worst-start-to-a-year-since-1942-heres-what-pros-say-you-should-do-now-11651250525",
+    "urlToImage": "https://images.mktw.net/im-533611/social",
+    "publishedAt": "2022-04-29T19:57:00Z",
+    "content": "To say that it has been a perilous stretch for bullish stock investors on Wall Street lately is a bit of an understatement. Marked by stomach-churning volatility and bruising losses in once-popular t… [+6080 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Fox Business"
+    },
+    "author": "Daniella Genovese",
+    "title": "Ford recalls over a quarter-million vehicles that can roll away while parked - Fox Business",
+    "description": "Ford Motor Co.'s recall covers certain 2020 through 2022 Explorers with 2.3-liter engines, as well as 3-liter and 3.3-liter hybrids and the 3-liter ST. It also extends to 2020 and 2021 Explorer Police hybrids and those with 3.3-liter gas engines.",
+    "url": "https://www.foxbusiness.com/lifestyle/ford-recalls-over-a-quarter-million-suvs-that-can-roll-away-while-parked",
+    "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2021/11/0/0/Ford-logo.jpg?ve=1&tl=1",
+    "publishedAt": "2022-04-29T19:21:14Z",
+    "content": "More than a quarter-million Ford Explorer SUVs are being recalled in the U.S. because they can roll away even when they are parked. \r\n<table><tr><th>Ticker</th><th>Security</th><th>Last</th><th>Chang… [+1343 chars]"
+  }
+]
+}
