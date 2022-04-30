@@ -48,6 +48,8 @@ class NewsCubit extends Cubit<NewsStates> {
     ),
   ];
 
+  ///====================================================
+
   List<dynamic> business = [];
 
   void getBusiness() {
@@ -61,10 +63,49 @@ class NewsCubit extends Cubit<NewsStates> {
       },
     ).then((value) {
       business = value.data['articles'];
-      print(business[2]['title']);
       emit(NewsGetBusinessSuccessState());
     });
   }
+
+  ///====================================================
+
+  List<dynamic> sports = [];
+
+  void getSports() {
+    emit(NewsGetSportsLoadingState());
+    DioHelper.getData(
+      url: 'v2/top-headlines',
+      query: {
+        'country': 'eg',
+        'category': 'sports',
+        'apikey': '5d8255285806419bbfe60e349307e71a',
+      },
+    ).then((value) {
+      sports = value.data['articles'];
+      emit(NewsGetSportsSuccessState());
+    });
+  }
+
+  ///====================================================
+
+  List<dynamic> science = [];
+
+  void getScience() {
+    emit(NewsGetScienceLoadingState());
+    DioHelper.getData(
+      url: 'v2/top-headlines',
+      query: {
+        'country': 'eg',
+        'category': 'science',
+        'apikey': '5d8255285806419bbfe60e349307e71a',
+      },
+    ).then((value) {
+      science = value.data['articles'];
+      emit(NewsGetScienceSuccessState());
+    });
+  }
+
+  ///====================================================
 
   changeBottomNavBar(int index) {
     currentIndex = index;

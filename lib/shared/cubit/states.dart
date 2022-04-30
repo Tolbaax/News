@@ -8,4 +8,10 @@ class NewsGetBusinessLoadingState extends NewsStates {}
 
 class NewsGetBusinessSuccessState extends NewsStates {}
 
+class NewsGetSportsLoadingState extends NewsStates {}
 
+class NewsGetSportsSuccessState extends NewsStates {}
+
+class NewsGetScienceLoadingState extends NewsStates {}
+
+class NewsGetScienceSuccessState extends NewsStates {}
