@@ -1,4 +1,4 @@
-# news365
+# News App
 
 A new Flutter project.
 
