@@ -1,9 +1,7 @@
-import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:news365/shared/cubit/bloc_observer.dart';
 import 'package:news365/shared/cubit/cubit.dart';
 import 'package:news365/shared/cubit/states.dart';
 import 'package:news365/shared/network/remote/dio_helper.dart';
@@ -14,7 +12,7 @@ void main() {
     NewsCubit();
     runApp(const MyApp());
   },
-  blocObserver: MyBlocObserver(),
+  // blocObserver: MyBlocObserver(),
   );
   DioHelper.init();
 }
@@ -25,7 +23,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => NewsCubit(),
+      create: (context) => NewsCubit()..getScience()..getSports()..getBusiness(),
       child: BlocConsumer<NewsCubit,NewsStates>(
         listener: (context, state) {} ,
         builder: (context, state) {
@@ -36,7 +34,7 @@ class MyApp extends StatelessWidget {
               appBarTheme: const AppBarTheme(
                 titleSpacing: 20.0,
                 systemOverlayStyle: SystemUiOverlayStyle(
-                  statusBarColor: Colors.white,
+                  statusBarColor: Colors.grey,
                   statusBarBrightness: Brightness.dark,
                 ),
                 titleTextStyle: TextStyle(
