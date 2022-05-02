@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
 
 class DioHelper {
-
   static late Dio dio;
 
   static init() {
@@ -13,9 +12,8 @@ class DioHelper {
     );
   }
 
-  static Future<Response> getData({required String url, required Map<String,dynamic> query}) async
-  {
+  static Future<Response> getData(
+      {required String url, required Map<String, dynamic> query}) async {
     return await dio.get(url, queryParameters: query,);
   }
-
 }

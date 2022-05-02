@@ -4,26 +4,36 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:news365/shared/cubit/cubit.dart';
 import 'package:news365/shared/cubit/states.dart';
+import 'package:news365/shared/network/local/cache_helper.dart';
 import 'package:news365/shared/network/remote/dio_helper.dart';
 import 'layout/home_screen.dart';
 
-void main() {
+void main() async
+{
+  WidgetsFlutterBinding.ensureInitialized();
+
+  DioHelper.init();
+  await CacheHelper.init();
+  bool isDark = CacheHelper.getBoolean(key: 'isDark');
   BlocOverrides.runZoned(() {
     NewsCubit();
-    runApp(const MyApp());
+    runApp(MyApp(isDark));
   },
-  // blocObserver: MyBlocObserver(),
+    // blocObserver: MyBlocObserver(),
   );
-  DioHelper.init();
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+
+  final bool isDark;
+  MyApp(this.isDark);
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => NewsCubit()..getScience()..getSports()..getBusiness(),
+      create: (context) => NewsCubit()..getScience()..getSports()..getBusiness()..changeAppMode(
+        fromShared: isDark,
+      ),
       child: BlocConsumer<NewsCubit,NewsStates>(
         listener: (context, state) {} ,
         builder: (context, state) {
@@ -50,7 +60,6 @@ class MyApp extends StatelessWidget {
               ),
               bottomNavigationBarTheme: const BottomNavigationBarThemeData(
                   selectedItemColor: Colors.deepOrange,
-                  unselectedItemColor: Colors.grey,
                   type: BottomNavigationBarType.fixed,
                   backgroundColor: Colors.white,
                   elevation: 20.0
@@ -64,6 +73,7 @@ class MyApp extends StatelessWidget {
               ),
               scaffoldBackgroundColor: Colors.white,
             ),
+
             darkTheme: ThemeData(
               primarySwatch: Colors.deepOrange,
               appBarTheme: AppBarTheme(

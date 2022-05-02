@@ -4,6 +4,7 @@ import 'package:news365/modules/business_screen.dart';
 import 'package:news365/modules/science_screen.dart';
 import 'package:news365/modules/sports_screen.dart';
 import 'package:news365/shared/cubit/states.dart';
+import 'package:news365/shared/network/local/cache_helper.dart';
 import '../network/remote/dio_helper.dart';
 
 class NewsCubit extends Cubit<NewsStates> {
@@ -44,7 +45,8 @@ class NewsCubit extends Cubit<NewsStates> {
 
   List<dynamic> business = [];
 
-  void getBusiness() {
+  void getBusiness()
+  {
     emit(NewsGetBusinessLoadingState());
     DioHelper.getData(
       url: 'v2/top-headlines',
@@ -63,7 +65,8 @@ class NewsCubit extends Cubit<NewsStates> {
 
   List<dynamic> sports = [];
 
-  void getSports() {
+  void getSports()
+  {
     emit(NewsGetSportsLoadingState());
     DioHelper.getData(
       url: 'v2/top-headlines',
@@ -82,7 +85,9 @@ class NewsCubit extends Cubit<NewsStates> {
 
   List<dynamic> science = [];
 
-  void getScience() {
+
+  void getScience()
+  {
     emit(NewsGetScienceLoadingState());
     DioHelper.getData(
       url: 'v2/top-headlines',
@@ -99,16 +104,28 @@ class NewsCubit extends Cubit<NewsStates> {
 
   ///====================================================
 
-  changeBottomNavBar(int index) {
+  changeBottomNavBar(int index)
+  {
     currentIndex = index;
     emit(NewsBottomNavState());
   }
 
   bool isDark = false;
 
-  void changeAppMode() {
-    isDark = !isDark;
-    emit(AppChangeModeState());
+  void changeAppMode({bool? fromShared})
+  {
+    if(fromShared != null)
+    {
+      isDark = fromShared;
+      emit(AppChangeModeState());
+    }
+    else
+      {
+        isDark = !isDark;
+        CacheHelper.putBoolean(key: 'isDark', value: isDark).then((value) {
+          emit(AppChangeModeState());
+        });
+      }
   }
 
 }
