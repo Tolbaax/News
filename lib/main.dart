@@ -9,7 +9,7 @@ import 'layout/home_screen.dart';
 
 void main() async
 {
-  //make sure that everything in methode is finished, then open the a
+  //make sure that everything in methode is finished, then open the app
   WidgetsFlutterBinding.ensureInitialized();
   DioHelper.init();
   await CacheHelper.init();
