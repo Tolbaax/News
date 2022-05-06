@@ -85,7 +85,6 @@ class NewsCubit extends Cubit<NewsStates> {
 
   List<dynamic> science = [];
 
-
   void getScience()
   {
     emit(NewsGetScienceLoadingState());
@@ -99,6 +98,25 @@ class NewsCubit extends Cubit<NewsStates> {
     ).then((value) {
       science = value.data['articles'];
       emit(NewsGetScienceSuccessState());
+    });
+  }
+
+  //====================================================
+
+  List<dynamic> search = [];
+
+  void getSearch(String value)
+  {
+    emit(NewsGetSearchLoadingState());
+    DioHelper.getData(
+      url: 'v2/everything',
+      query: {
+        'q': value,
+        'apikey': '5d8255285806419bbfe60e349307e71a',
+      },
+    ).then((value) {
+      search = value.data['articles'];
+      emit(NewsGetSearchSuccessState());
     });
   }
 

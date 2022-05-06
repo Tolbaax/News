@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 Widget defaultFormField({
   required String? Function(String?) validate,
+  String? Function(String?)? onChange,
   required TextEditingController controller,
   void Function()? suffixPressed,
   required TextInputType type,
@@ -17,6 +18,7 @@ Widget defaultFormField({
       controller: controller,
       keyboardType: type,
       validator: validate,
+      onChanged: onChange,
       obscureText: isPassword,
       onTap: onTab,
       readOnly: readOnly,
@@ -24,7 +26,6 @@ Widget defaultFormField({
         labelText: label,
         prefixIcon: Icon(
           prefix,
-          color: Colors.teal,
         ),
         suffixIcon: IconButton(
           icon: Icon(suffix),
@@ -100,4 +101,9 @@ Widget myDivider() => Padding(
         color: Colors.grey[300],
       ),
     );
+
+void navigateTo(context, widget) => Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context)=> widget)
+);
 

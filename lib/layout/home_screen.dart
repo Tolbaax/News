@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:news365/shared/components/components.dart';
 import 'package:news365/shared/cubit/cubit.dart';
 import 'package:news365/shared/cubit/states.dart';
+
+import '../modules/search_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -16,7 +19,12 @@ class HomeScreen extends StatelessWidget {
           appBar: AppBar(
             title: const Text('News App'),
             actions: [
-              IconButton(onPressed: () {}, icon: const Icon(Icons.search)),
+              IconButton(
+                  onPressed: () {
+                    navigateTo(context, SearchScreen());
+                  },
+                  icon: const Icon(Icons.search)
+              ),
               IconButton(
                   onPressed: () {
                     NewsCubit.get(context).changeAppMode();

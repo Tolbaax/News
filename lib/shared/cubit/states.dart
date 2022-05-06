@@ -16,4 +16,8 @@ class NewsGetScienceLoadingState extends NewsStates {}
 
 class NewsGetScienceSuccessState extends NewsStates {}
 
+class NewsGetSearchLoadingState extends NewsStates {}
+
+class NewsGetSearchSuccessState extends NewsStates {}
+
 class AppChangeModeState extends NewsStates {}
