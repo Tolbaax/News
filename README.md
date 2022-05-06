@@ -1,6 +1,6 @@
 # News App
 
-News App with NewsApi & Bloc State Management
+News App using Api , Bloc state management , search and web view
 
 ## Features
 
