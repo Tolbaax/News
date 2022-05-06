@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news365/shared/components/components.dart';
 import 'package:news365/shared/cubit/cubit.dart';
 import 'package:news365/shared/cubit/states.dart';
-
 import '../modules/search_screen.dart';
 
 class HomeScreen extends StatelessWidget {

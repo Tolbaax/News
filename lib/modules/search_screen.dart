@@ -21,12 +21,6 @@ class SearchScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsetsDirectional.all(20.0),
                 child: defaultFormField(
-                    validate:  (value) {
-                      if (value!.isEmpty) {
-                        return 'search must not be empty';
-                      }
-                      return null;
-                    },
                     onChange: (value)
                     {
                       NewsCubit.get(context).getSearch(value!);
