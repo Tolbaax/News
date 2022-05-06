@@ -8,6 +8,7 @@ This project is a starting point for learning Dio.
 
 1. [x] Bloc State management
 3. [x] Use dio Package & Fetch news from API.
-4. [x] use shared preferences package.
-5. [x] search news by keyword.
-6. [x] Change theme.
+4. [x] Use shared preferences package.
+5. [x] Use web view package 
+6. [x] search news by keyword.
+7. [x] Change theme.
